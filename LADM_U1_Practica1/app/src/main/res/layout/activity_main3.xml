@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3"
+    android:background="@drawable/wp3"
+    >
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="18 Educational Android          Apps for Teachers"
+        android:textAlignment="center"
+        android:textColor="#d0d5d9"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="#d0d5d9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Android Note Taking Apps"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="#d0d5d9"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView91"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/fb" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Facebook"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/yt" />
+
+                <TextView
+                    android:id="@+id/textView54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="youtube"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="65dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ig" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Instagram"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="#d0d5d9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView166"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Android Portafolio Apps"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="#d0d5d9"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView89"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/fb" />
+
+                <TextView
+                    android:id="@+id/textView96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Facebook"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView87"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/yt" />
+
+                <TextView
+                    android:id="@+id/textView184"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="youtube"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView921"
+                    android:layout_width="65dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ig" />
+
+                <TextView
+                    android:id="@+id/textView197"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Insta"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="#d0d5d9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1q"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Android Presentation Apps"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="#d0d5d9"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView9a"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/fb" />
+
+                <TextView
+                    android:id="@+id/textViewd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Facebook"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView8d"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/yt" />
+
+                <TextView
+                    android:id="@+id/textView18a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="youtube"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView9v"
+                    android:layout_width="65dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ig" />
+
+                <TextView
+                    android:id="@+id/textView19v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Insta"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="#d0d5d9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13q"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Android Reference Apps"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="#d0d5d9"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView90b"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/fb" />
+
+                <TextView
+                    android:id="@+id/textView171b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Facebook"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView81c"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/yt" />
+
+                <TextView
+                    android:id="@+id/textView181x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="youtube"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView92n"
+                    android:layout_width="65dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ig" />
+
+                <TextView
+                    android:id="@+id/textView193c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Insta"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background=""
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:background="#d0d5d9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Android Video Apps"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="#d0d5d9"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView90"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:src="@drawable/fb" />
+
+                <TextView
+                    android:id="@+id/textView171"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Facebook"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView81"
+                    android:layout_width="71dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/yt" />
+
+                <TextView
+                    android:id="@+id/textView181"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="youtube"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:background="#d0d5d9"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView92"
+                    android:layout_width="65dp"
+                    android:layout_height="71dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ig" />
+
+                <TextView
+                    android:id="@+id/textView193"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Insta"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
